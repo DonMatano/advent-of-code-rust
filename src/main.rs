@@ -1,4 +1,7 @@
-mod day_1_2020;
+mod year_2020;
+
+
+
 fn main() {
-    println!("Hello, world!");
+    year_2020::day_2::day_2::elves_total_wrapping_paper()
 }

@@ -1,4 +1,4 @@
-pub mod day_1_2020 {
+pub mod day_1 {
     pub fn get_floor_number_from_code(code: &str) -> i32 {
         let mut floor = 0;
         for c in code.chars(){
@@ -33,7 +33,7 @@ pub mod day_1_2020 {
 
 #[cfg(test)]
 mod test {
-    use crate::day_1_2020::day_1_2020::{check_first_basement_position, get_floor_number_from_code};
+    use crate::year_2020::day_1::day_1::{check_first_basement_position, get_floor_number_from_code};
 
     #[test]
     fn test_get_floor_number_from_code() {
